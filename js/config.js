@@ -10,7 +10,7 @@
 /*URL for the server logo
 Leave it blank to use text instead
 (Put the files in the images folder)*/
-var l_serverImage = "logo.png";
+var l_serverImage = "PMW_1.jpg";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
@@ -67,7 +67,7 @@ var l_musicDisplay = true;
 Place how much .ogg songs you want
 (Put the files in the songs folder)*/
 var l_musicPlaylist = [
-	{ogg: "Post_Malone_Rockstar_Ft_21_Savage_.ogg", name: "Rockstar By Post Malone And 21 Savage"},
+	{youtube: "209r9TMB4M", name: "Rockstar By Post Malone And 21 Savage"},
 ];
 
 /*Random music order?*/
@@ -85,6 +85,7 @@ var l_messages = [
 	"Enjoy the server",
 	"Thanks for joining us!",
 	"Make sure you join our steamgroup pmwdarkrp to get $20,000!"
+];"
 ];
 
 /*Random message order?*/
