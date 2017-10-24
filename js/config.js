@@ -62,7 +62,7 @@ var l_musicDisplay = false;
 Place how much .ogg songs you want
 (Put the files in the songs folder)*/
 var l_musicPlaylist = [
-	{youtube: "209r9TMB4M", name: "Rockstar By Post Malone And 21 Savage"},
+	{mp3: "roc", name: "Rockstar By Post Malone And 21 Savage"},
 ];
 
 /*Random music order?*/
