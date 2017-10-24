@@ -14,7 +14,7 @@ var l_serverImage = "logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "PMWRP";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -89,10 +89,7 @@ var l_musicDisplay = true;
 Place how much .ogg songs you want
 (Put the files in the songs folder)*/
 var l_musicPlaylist = [
-	{ogg: "lullaby.ogg", name: "Lullaby of Deserted Hell"},
-	{ogg: "falls_in_fall.ogg", name: "秋に舞う椛と滝飛沫"},
-	{youtube: "zA6wRutN_7Q", name: "Suwa-cafeteria"},
-	{youtube: "KtlKbE4qU0c", name: "月の妖鳥、化猫の幻"},
+	{youtube: "_209r9TMB4M", name: "Rockstar"},
 ];
 
 /*Random music order?*/
@@ -109,7 +106,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 	"Enjoy the server",
 	"Thanks for joining us!",
-	"Did you know these backgrounds and songs are from Touhou?"
+	"Make sure to check our website for many cool features!"
 ];
 
 /*Random message order?*/
