@@ -14,34 +14,12 @@ var l_serverImage = "logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "PMWRP";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
 var l_bgVideo = false;
 
-/*Video background
-Avaiable options:
-"aurora.webm"
-"bluefall.webm"
-"bluetilefloor.webm"
-"bluewhitecircles.webm"
-"bokehlens.webm"
-"cleanbokeh.webm"
-"coldnight.webm"
-"colorfulburst.webm"
-"dancingstars.webm"
-"dropsflares.webm"
-"focusorangebokeh.webm"
-"glimmering.webm"
-"glowingrings.webm"
-"greencircles.webm"
-"hues.webm"
-"inthedeep.webm"
-"modernflourish.webm"
-"orangeaura.webm"
-"warminside.webm"
-"yellowgreen.webm"
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format 
@@ -53,9 +31,9 @@ Place one or more images
 Multiple images will automatically shuffle between them
 (Put the files in the backgrounds/images folder)*/
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"1.jpg",
+	"2.jpg",
+	"3.jpg"
 ];
 
 /*Random background images order?*/
@@ -89,10 +67,7 @@ var l_musicDisplay = true;
 Place how much .ogg songs you want
 (Put the files in the songs folder)*/
 var l_musicPlaylist = [
-	{ogg: "lullaby.ogg", name: "Lullaby of Deserted Hell"},
-	{ogg: "falls_in_fall.ogg", name: "秋に舞う椛と滝飛沫"},
-	{youtube: "zA6wRutN_7Q", name: "Suwa-cafeteria"},
-	{youtube: "KtlKbE4qU0c", name: "月の妖鳥、化猫の幻"},
+	{ogg: "Post_Malone_Rockstar_Ft_21_Savage_.ogg", name: "Rockstar By Post Malone And 21 Savage"},
 ];
 
 /*Random music order?*/
@@ -109,7 +84,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 	"Enjoy the server",
 	"Thanks for joining us!",
-	"Did you know these backgrounds and songs are from Touhou?"
+	"Make sure you join our steamgroup pmwdarkrp to get $20,000!"
 ];
 
 /*Random message order?*/
