@@ -10,29 +10,56 @@
 /*URL for the server logo
 Leave it blank to use text instead
 (Put the files in the images folder)*/
-var l_serverImage = "PMW_1.png";
+var l_serverImage = "logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "PMWRP";
+var l_serverName = "sleekLoad 2";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = true;
+var l_bgVideo = false;
 
+/*Video background
+Avaiable options:
+"aurora.webm"
+"bluefall.webm"
+"bluetilefloor.webm"
+"bluewhitecircles.webm"
+"bokehlens.webm"
+"cleanbokeh.webm"
+"coldnight.webm"
+"colorfulburst.webm"
+"dancingstars.webm"
+"dropsflares.webm"
+"focusorangebokeh.webm"
+"glimmering.webm"
+"glowingrings.webm"
+"greencircles.webm"
+"hues.webm"
+"inthedeep.webm"
+"modernflourish.webm"
+"orangeaura.webm"
+"warminside.webm"
+"yellowgreen.webm"
+
+You can add custom backgrounds
+Just make sure it is at webm VP8 format 
+(Put the files in the backgrounds/videos folder)*/
+var l_background = "glimmering.webm";
 
 /*(Image-background only)
 Place one or more images
 Multiple images will automatically shuffle between them
 (Put the files in the backgrounds/images folder)*/
 var l_bgImages = [
-	"1.jpg",
-	"2.jpg",
-	"3.jpg"
+	"touhou01.jpg",
+	"touhou02.jpg",
+	"touhou03.jpg"
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = false;
+var l_bgImagesRandom = true;
 
 /*(Image-background only)
 Delay between background images changes
@@ -53,38 +80,40 @@ var l_bgDarkening = 50;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = false;
+var l_music = true;
 
 /*Display actual song's name?*/
-var l_musicDisplay = false;
+var l_musicDisplay = true;
 
 /*Music playlist
 Place how much .ogg songs you want
 (Put the files in the songs folder)*/
 var l_musicPlaylist = [
-	{mp3: "roc", name: "Rockstar By Post Malone And 21 Savage"},
+	{ogg: "lullaby.ogg", name: "Lullaby of Deserted Hell"},
+	{ogg: "falls_in_fall.ogg", name: "秋に舞う椛と滝飛沫"},
+	{youtube: "zA6wRutN_7Q", name: "Suwa-cafeteria"},
+	{youtube: "KtlKbE4qU0c", name: "月の妖鳥、化猫の幻"},
 ];
 
 /*Random music order?*/
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
 var l_musicVolume = 15;
 
 /*Enable custom messages?*/
-var l_messagesEnabled = false;
+var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
 	"Enjoy the server",
 	"Thanks for joining us!",
-	"Make sure you join our steamgroup pmwdarkrp to get $20,000!"
-];"
+	"Did you know these backgrounds and songs are from Touhou?"
 ];
 
 /*Random message order?*/
-var l_messagesRandom = false;
+var l_messagesRandom = true;
 
 /*Delay between message changes
 in milliseconds*/
