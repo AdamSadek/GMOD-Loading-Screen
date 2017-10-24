@@ -18,13 +18,8 @@ var l_serverName = "PMWRP";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
-
-You can add custom backgrounds
-Just make sure it is at webm VP8 format 
-(Put the files in the backgrounds/videos folder)*/
-var l_background = "glimmering.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -37,7 +32,7 @@ var l_bgImages = [
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 /*(Image-background only)
 Delay between background images changes
@@ -58,10 +53,10 @@ var l_bgDarkening = 50;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = true;
+var l_music = false;
 
 /*Display actual song's name?*/
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 /*Music playlist
 Place how much .ogg songs you want
@@ -71,14 +66,14 @@ var l_musicPlaylist = [
 ];
 
 /*Random music order?*/
-var l_musicRandom = true;
+var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
 var l_musicVolume = 15;
 
 /*Enable custom messages?*/
-var l_messagesEnabled = true;
+var l_messagesEnabled = false;
 
 /*Enter your custom messages below*/
 var l_messages = [
@@ -89,7 +84,7 @@ var l_messages = [
 ];
 
 /*Random message order?*/
-var l_messagesRandom = true;
+var l_messagesRandom = false;
 
 /*Delay between message changes
 in milliseconds*/
